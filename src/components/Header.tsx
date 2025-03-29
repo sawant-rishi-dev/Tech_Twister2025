@@ -108,7 +108,7 @@ const Header = () => {
               className="px-6 py-2 rounded-full bg-tech-purple hover:bg-tech-pink transition-colors duration-300 font-medium text-white w-full mt-4"
               onClick={handleRegisterNow}
             >
-              Register Now
+               Now
             </button>
           </div>
         </div>

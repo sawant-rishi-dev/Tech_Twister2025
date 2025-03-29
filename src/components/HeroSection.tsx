@@ -1,18 +1,14 @@
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown } from "lucide-react";
 
 const HeroSection = () => {
-  const scrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      const offset = 80; // Adjust for fixed headers or offsets
-      const elementPosition = section.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - offset;
+  // Desired link for redirection when "Register Now" is clicked.
+  const registerNowLink = "https://docs.google.com/forms/d/e/1FAIpQLSebc-s1ddiz6N-JpSLilGwiDjIn2FYmhA-uNt8wWjhrEcFSgw/closedform"; // Replace with your desired URL
 
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
-    }
+  // Function to handle the redirection
+  const handleRegisterNow = () => {
+    window.location.href = registerNowLink;
+    // To open in a new tab, you can alternatively use:
+    // window.open(registerNowLink, "_blank");
   };
 
   return (
@@ -29,9 +25,21 @@ const HeroSection = () => {
 
       <div className="container relative z-10 flex flex-col items-center justify-center text-center px-6">
         <div className="glass-panel p-8 md:p-12 max-w-4xl mx-auto animate-scale-up">
-          <p className="text-sm md:text-base text-white/80 mb-2 font-medium">
+          {/* College Name with Logos */}
+          <p className="text-sm md:text-base text-white/80 mb-2 font-medium flex items-center justify-center gap-4">
+            <img
+              src="/background-uploads/left.png"
+              alt="College Logo"
+              className="h-12 w-auto"
+            />
             SHREE RAYESHWAR INSTITUTE OF ENGINEERING AND INFORMATION TECHNOLOGY
+            <img
+              src="/background-uploads/right.png"
+              alt="College Logo"
+              className="h-12 w-auto"
+            />
           </p>
+
           <p className="text-xs md:text-sm text-white/60 mb-6">
             STUDENT'S COUNCIL 2024-25 PRESENTS
           </p>
@@ -49,12 +57,12 @@ const HeroSection = () => {
             <span className="text-white ml-2">APRIL 2025</span>
           </p>
 
-          {/* Only "Register Now" button remains */}
+          {/* "Register Now" Button */}
           <button
             className="ml-4 px-6 py-2 rounded-full bg-tech-purple hover:bg-tech-pink transition-colors duration-300 font-medium text-white"
-            onClick={() => scrollToSection('events')}
+            onClick={handleRegisterNow}
           >
-            Events
+            Register Now
           </button>
         </div>
       </div>

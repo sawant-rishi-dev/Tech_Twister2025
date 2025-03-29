@@ -2,8 +2,16 @@ import { ExternalLink } from 'lucide-react';
 
 const SponsorsSection = () => {
   const sponsors = [
-    { name: 'TechGiant Corp', logo: 'linear-gradient(to right, #8A2BE2, #FF00FF)', url: '#' },
-    { name: 'Innovate Solutions', logo: 'linear-gradient(to right, #00FFFF, #8A2BE2)', url: '#' },
+    { 
+      name: 'Cognizant Technology Solutions', 
+      logo: '/background-uploads/cognizant.png', // Image path from public folder  
+      url: 'https://www.cognizant.com/us/en' 
+    },
+    { 
+      name: 'Sa', 
+      logo: '/background-uploads/sp01.png', // Update with your actual image path  
+      url: '#' 
+    },
     // Add other sponsors as needed...
   ];
 
@@ -25,11 +33,17 @@ const SponsorsSection = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div
+              <img
+                src={sponsor.logo}
+                alt={`${sponsor.name} logo`}
                 className="w-16 h-16 rounded-full mb-3"
-                style={{ background: sponsor.logo }}
-              ></div>
+              />
               <h4 className="text-lg font-bold mb-1">{sponsor.name}</h4>
+              {sponsor.name === 'Cognizant Technology Solutions' && (
+                <p className="text-xs text-white mt-1">
+                  Vinayak Wargaonkar, Sr. Business Testing Manager
+                </p>
+              )}
               <div className="flex items-center text-tech-purple text-xs">
                 <span>Visit website</span>
                 <ExternalLink size={12} className="ml-1" />
@@ -39,7 +53,6 @@ const SponsorsSection = () => {
         </div>
       </div>
 
-      {/* Commented Section Starts Here */}
       {/* 
       <div className="mt-16 max-w-lg mx-auto text-center">
         <h3 className="text-xl font-display font-bold mb-4 text-gradient">Become a Sponsor</h3>
@@ -49,7 +62,7 @@ const SponsorsSection = () => {
         <button className="px-8 py-3 bg-tech-purple hover:bg-tech-pink transition-colors rounded-full text-white font-medium">
           Sponsorship Opportunities
         </button>
-      </div> 
+      </div>
       */}
     </section>
   );
