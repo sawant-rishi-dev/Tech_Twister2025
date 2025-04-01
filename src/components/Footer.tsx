@@ -71,7 +71,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <MapPin size={18} className="text-tech-purple mr-3 mt-0.5" />
-                <span className="text-white/80">Shree Rayeshwar Institute<br />Shivrai, Shiroda<br />Goa - 403103</span>
+                <span className="text-white/80">Shree Rayeshwar Institute<br />SHIVSHAIL, Karai, Shiroda<br />Goa - 403103</span>
               </li>
             </ul>
           </div>
@@ -96,7 +96,7 @@ const Footer = () => {
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/60 text-sm mb-4 md:mb-0">
-            © 2024 Tech Twister. All rights reserved. Shree Rayeshwar Institute of Engineering and IT.
+            © 2025 Tech Twister. All rights reserved. Shree Rayeshwar Institute of Engineering and IT.
           </p>
           <div className="flex items-center">
             <a href="#" className="text-white/60 text-sm hover:text-white transition-colors mr-6">

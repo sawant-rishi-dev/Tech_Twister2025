@@ -10,7 +10,7 @@ const TeamSection = () => {
       contact: '+91 89991 60245',
     },
     {
-      nname: 'Vikrant Phadte',
+      name: 'Vikrant Phadte',
       role: 'Head  Coordinator',
       image: '/background-uploads/vikrant.png',
       contact: '+91 98909 25524',
