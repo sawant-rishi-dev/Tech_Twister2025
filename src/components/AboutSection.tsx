@@ -95,7 +95,7 @@ const AboutSection = () => {
                   SRIEIT-GOA
                 </a>
                 <p className="text-white/60 text-sm mt-1">
-                  Shivrai, Shiroda, Goa - 403103
+                 Shiroda, Goa - 403103
                 </p>
               </div>
             </div>
