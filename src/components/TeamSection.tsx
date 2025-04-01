@@ -107,7 +107,6 @@ const TeamSection = () => {
       name: 'Mohit kumar',
       role: 'Web Development ',
       image: '/background-uploads/mohit.png',
-      contact: '+91 7219570353',
     },
     
   ];
@@ -118,7 +117,7 @@ const TeamSection = () => {
    */
   const renderTeamGrid = (
     team,
-    gridClass = "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-4xl mx-auto",
+    gridClass = "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto",
     showContact = true
   ) => (
     <div className={gridClass}>
@@ -160,7 +159,7 @@ const TeamSection = () => {
       ))}
     </div>
   );
-
+  
   return (
     <section id="team" className="py-24 bg-section-gradient">
       <div className="container">
@@ -176,31 +175,31 @@ const TeamSection = () => {
         <h3 className="text-center text-xl font-display font-bold mt-12 mb-8 text-gradient">
           Core Team
         </h3>
-        {renderTeamGrid(coreTeam, "grid grid-cols-5 gap-4 max-w-5xl mx-auto")}
+        {renderTeamGrid(coreTeam, "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto")}
   
-        {/* OrganizingTeam */}
+        {/* Organizing Team */}
         <h3 className="text-center text-xl font-display font-bold mt-12 mb-8 text-gradient">
           Organizing Team
         </h3>
-        {renderTeamGrid(organizingTeam,"grid grid-cols-3 gap-1 max-w-5xl mx-auto", false)}
-
+        {renderTeamGrid(organizingTeam, "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto", false)}
+  
         {/* Designing Team */}
         <h3 className="text-center text-xl font-display font-bold mt-12 mb-8 text-gradient">
           Designing Team
         </h3>
-        {renderTeamGrid(designTeam, "grid grid-cols-4 gap-1 max-w-5xl mx-auto", false)}
-
+        {renderTeamGrid(designTeam, "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto", false)}
+  
         {/* Marketing Team */}
         <h3 className="text-center text-xl font-display font-bold mt-12 mb-8 text-gradient">
           Marketing Team
         </h3>
-        {renderTeamGrid(marketTeam, "grid grid-cols-3 sm:grid-cols-3 gap-8 max-w-4xl mx-auto", false)}
+        {renderTeamGrid(marketTeam, "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto", false)}
   
-        {/* Web Dev Team - moved to the end */}
+        {/* Web Dev Team */}
         <h3 className="text-center text-xl font-display font-bold mt-12 mb-8 text-gradient">
           Web Dev Team
         </h3>
-        {renderTeamGrid(websiteTeam,"grid grid-cols-3 sm:grid-cols-3 gap-8 max-w-4xl mx-auto", false)}
+        {renderTeamGrid(websiteTeam, "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto", false)}
   
         {/* Support Text */}
         <div className="mt-16 max-w-lg mx-auto text-center">
@@ -212,7 +211,7 @@ const TeamSection = () => {
         </div>
       </div>
     </section>
-  );
+  ); 
 }
 
 export default TeamSection;
