@@ -448,7 +448,7 @@ const EventsSection = () => {
       title: 'Shorts Show Down',
       category: 'design',
       image: 'linear-gradient(to right, #8A2BE2, #00FFFF)',
-      description: '**Shorts Show Down** is a reel-making event where participants create engaging and creative short videos, showcasing sports-related themes, challenges, or performances.',
+      description: 'Shorts Show Down is a reel-making event where participants create engaging and creative short videos, showcasing sports-related themes, challenges, or performances.',
       teamSize: '3-4',
       duration: '1 day',
       poolPrize: '₹2,000',
