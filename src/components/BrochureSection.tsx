@@ -5,7 +5,7 @@ const BrochureSection = () => {
   const brochurePdfUrl = "/background-uploads/TechTwister2025.pdf";
   
   // Desired link for sharing
-  const shareLink = "https://drive.google.com/file/d/1w9qvM9yUFvYc9phEwVIc8nixXJzhJnWi/view?usp=drive_link";
+  const shareLink = "https://drive.google.com/file/d/1408WoQmROSGrCAZK7ZMm5Dg5lWqFwwvS/view?usp=sharing";
 
   return (
     <section id="brochure" className="py-24 bg-tech-dark">

@@ -22,7 +22,7 @@ const EventsSection = () => {
       teamSize: '2-3 members',
       duration: '10AM to 5PM',
       poolPrize: '₹8,000',
-      link: 'https://drive.google.com/file/d/17rKuiVf7CyJ5Ty4-Hvxr5IcygwAzXNbC/view?usp=drive_link',
+      link: 'https://drive.google.com/file/d/1t7bDFiKYlplAcdhrakCv-O1RAWrX7Uhe/view?usp=drive_link',
       icon: (
         <div
           style={{
@@ -65,7 +65,7 @@ const EventsSection = () => {
       teamSize: '4 members',
       duration: 'whole Day',
       poolPrize: '₹10,000',
-      link: 'https://drive.google.com/file/d/1Q16ffJC6rU1EpXY7b_XWoDZmuABRL9l8/view?usp=drive_link',
+      link: 'https://drive.google.com/file/d/1U9Y_Z44xZXW1XqrArhRcVagyrpYZmkNN/view?usp=drive_link',
       icon: (
         <div
           style={{
@@ -108,7 +108,7 @@ const EventsSection = () => {
       teamSize: '2-3 members',
       duration: '10:00 AM to 5:00 PM both days',
       poolPrize: '₹7,500 + internship',
-      link: 'https://drive.google.com/file/d/109HD2JQnkx-l6T7htQi5_kwsswdT7Pzy/view?usp=drive_link',
+      link: 'https://drive.google.com/file/d/1ONlFbOLEb3XjFVQkDxMTYwJWpqYFFPi7/view?usp=drive_link',
       icon: (
         <div
           style={{
@@ -151,7 +151,7 @@ const EventsSection = () => {
       teamSize: '4',
       duration: '2 days',
       poolPrize: '₹12,000',
-      link: 'https://drive.google.com/file/d/1aqTIgopSpgpcvrO2kcabzCyTlJ8-eQzL/view?usp=drive_link',
+      link: 'https://drive.google.com/file/d/1LO23QGusk7lFttvCX8mmJT4d4XeMgwBp/view?usp=drive_link',
       icon: (
         <div
           style={{
@@ -194,7 +194,7 @@ const EventsSection = () => {
       teamSize: '5+1 substitude',
       duration: '2 days',
       poolPrize: '₹12,000',
-      link: 'https://drive.google.com/file/d/1sfxKmnEOUMXbcsd_grLcsXtWd1-ATigH/view?usp=drive_link',
+      link: 'https://drive.google.com/file/d/1mDz0rixR0ylyk50KVG8xn6krDYq6zDj6/view?usp=drive_link',
       icon: (
         <div
           style={{
@@ -237,7 +237,7 @@ const EventsSection = () => {
       teamSize: 'dual',
       duration: '2 days',
       poolPrize: '₹4,500',
-      link: 'https://drive.google.com/file/d/1LzLi7nAjBr1cu3-puK6pl0vC6qgDXp0c/view?usp=drive_link',
+      link: 'https://drive.google.com/file/d/1qqVPwNSRO3_d48mxgE3-uVkeXsfIyrHX/view?usp=drive_link',
       icon: (
         <div
           style={{
@@ -280,7 +280,7 @@ const EventsSection = () => {
       teamSize: '2-3',
       duration: 'run for 3 hours',
       poolPrize: '₹8,000',
-      link: 'https://drive.google.com/file/d/1pqyAM4A32SYwCrbPb6kAu-lKyKGuA2S4/view?usp=drive_link',
+      link: 'https://drive.google.com/file/d/1tZJTGbac9sGLjX79MwRSCUPMnwCFnNRG/view?usp=drive_link',
       icon: (
         <div
           style={{
@@ -363,10 +363,10 @@ const EventsSection = () => {
       category: 'coding',
       image: 'linear-gradient(to right, #8A2BE2, #00FFFF)',
       description: 'AI Train X is an event where teams build their own LLM models based on given problem statements, with AI-driven elimination and no AI-generated code allowed. ',
-      teamSize: '3',
+      teamSize: '2-3',
       duration: '2 days',
       poolPrize: '₹10,000',
-      link: 'https://drive.google.com/file/d/1aQ5YdfvwALV6nLNcbJG3X5nCPENS_PVF/view?usp=drive_link',
+      link: 'https://drive.google.com/file/d/1ZnLeWWGgJxuMblfIN77g5HUuv070a9k2/view?usp=drive_link',
       icon: (
         <div
           style={{
@@ -409,7 +409,7 @@ const EventsSection = () => {
       teamSize: '3-4',
       duration: '2 days',
       poolPrize: '₹10,000',
-      link: 'https://drive.google.com/file/d/1mB5oJd7zQtWXBWIYaKtd23r6888ihXcS/view?usp=drive_link',
+      link: 'https://drive.google.com/file/d/1yTWeXaoSTaS_cTzooSToAurGTqy0mY-x/view?usp=drive_link',
       icon: (
         <div
           style={{
@@ -451,8 +451,8 @@ const EventsSection = () => {
       description: '**Shorts Show Down** is a reel-making event where participants create engaging and creative short videos, showcasing sports-related themes, challenges, or performances.',
       teamSize: '3-4',
       duration: '1 day',
-      poolPrize: '₹3,000',
-      link: 'https://drive.google.com/file/d/1V37Y8NIbiF19W99wNv-A5TNO6cHSAcvl/view?usp=drive_link',
+      poolPrize: '₹2,000',
+      link: 'https://drive.google.com/file/d/1C7ySCwOzM1JNR5BOkwgsxqQxZRc440AL/view?usp=drive_link',
       icon: (
         <div
           style={{
@@ -474,7 +474,7 @@ const EventsSection = () => {
             }}
           >
             <img
-              src="/background-uploads/sports Show Down.png"
+              src="/background-uploads/reel making event.png"
               alt="Shorts Show Down"
               style={{
                 width: '100%',
@@ -495,7 +495,7 @@ const EventsSection = () => {
       teamSize: '2-5',
       duration: 'whole day 1',
       poolPrize: '₹12,000',
-      link: 'https://drive.google.com/file/d/1ZaxSa6LH77eHJUiJc7daktMJKRWNea5X/view?usp=drive_link',
+      link: 'https://drive.google.com/file/d/17LOaBkasaXa_4s2ZVXGaGMEwwPsf95oD/view?usp=drive_link',
       icon: (
         <div
           style={{
@@ -538,7 +538,7 @@ const EventsSection = () => {
       teamSize: 'solo',
       duration: '11:00 AM - 3:00 PM',
       poolPrize: '₹1,500',
-      link: 'https://drive.google.com/file/d/1LPvpVpcmODv0x-EAGHNy8JilYdATGRWA/view?usp=drive_link',
+      link: 'https://drive.google.com/file/d/1HR3eV7vtsiP9tBfHmVz5IqMUbjk2GyGc/view?usp=drive_link',
       icon: (
         <div
           style={{
