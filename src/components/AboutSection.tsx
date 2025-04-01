@@ -92,7 +92,7 @@ const AboutSection = () => {
                   rel="noopener noreferrer"
                   className="text-white/80 hover:underline"
                 >
-                  Shree Rayeshwar Institute Campus
+                  SRIEIT-GOA
                 </a>
                 <p className="text-white/60 text-sm mt-1">
                   Shivrai, Shiroda, Goa - 403103
