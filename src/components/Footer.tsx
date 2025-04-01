@@ -71,7 +71,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <MapPin size={18} className="text-tech-purple mr-3 mt-0.5" />
-                <span className="text-white/80">Shree Rayeshwar Institute<br />SHIVSHAIL, Karai, Shiroda<br />Goa - 403103</span>
+                <span className="text-white/80">shree rayeshwar institute of engineering <br />SHIVSHAIL, Karai, Shiroda<br />Goa - 403103</span>
               </li>
             </ul>
           </div>
