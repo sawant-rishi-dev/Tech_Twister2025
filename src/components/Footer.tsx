@@ -1,5 +1,4 @@
-
-import { Mail, Phone, MapPin, Instagram, Twitter, Facebook, Youtube, ArrowUp } from 'lucide-react';
+import { Mail, Phone, MapPin, ArrowUp } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -18,20 +17,6 @@ const Footer = () => {
             <p className="text-white/80 mb-6">
               Where Technology Meets Fiction at Shree Rayeshwar Institute of Engineering and Information Technology's flagship tech festival.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="w-8 h-8 rounded-full bg-tech-purple/20 flex items-center justify-center hover:bg-tech-purple transition-colors">
-                <Instagram size={16} className="text-white" />
-              </a>
-              <a href="#" className="w-8 h-8 rounded-full bg-tech-purple/20 flex items-center justify-center hover:bg-tech-purple transition-colors">
-                <Twitter size={16} className="text-white" />
-              </a>
-              <a href="#" className="w-8 h-8 rounded-full bg-tech-purple/20 flex items-center justify-center hover:bg-tech-purple transition-colors">
-                <Facebook size={16} className="text-white" />
-              </a>
-              <a href="#" className="w-8 h-8 rounded-full bg-tech-purple/20 flex items-center justify-center hover:bg-tech-purple transition-colors">
-                <Youtube size={16} className="text-white" />
-              </a>
-            </div>
           </div>
           
           <div>
@@ -67,30 +52,23 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <Phone size={18} className="text-tech-purple mr-3 mt-0.5" />
-                <span className="text-white/80">+91 8237815495</span>  {/* change the number its my */}s
+                <span className="text-white/80">+91 8237815495 </span>
               </li>
               <li className="flex items-start">
                 <MapPin size={18} className="text-tech-purple mr-3 mt-0.5" />
-                <span className="text-white/80">shree rayeshwar institute of engineering <br />SHIVSHAIL, Karai, Shiroda<br />Goa - 403103</span>
+                <span className="text-white/80">Shree Rayeshwar Institute of Engineering<br />SHIVSHAIL, Karai, Shiroda<br />Goa - 403103</span>
               </li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-lg font-display font-bold mb-6">Stay Updated</h3>
+            <h3 className="text-lg font-display font-bold mb-6">Follow Us</h3>
             <p className="text-white/80 mb-4">
-              follow us on Instagram for the latest updates regarding Tech Twister 2025
+              Follow us on Instagram for the latest updates regarding Tech Twister 2025:
             </p>
-            <div className="flex flex-col space-y-3">
-              <input 
-                type="email" 
-                placeholder="Your email address" 
-                className="px-4 py-2 rounded-lg bg-white/10 border border-white/20 focus:outline-none focus:border-tech-purple transition-colors"
-              />
-              <button className="px-4 py-2 bg-tech-purple hover:bg-tech-pink transition-colors rounded-lg text-white font-medium">
-                Subscribe
-              </button>
-            </div>
+            <a href="https://www.instagram.com/tech_twister2025?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-tech-purple hover:text-tech-pink transition-colors">
+              Instagram Link
+            </a>
           </div>
         </div>
         
